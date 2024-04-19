@@ -40,9 +40,7 @@ public class Playlist {
             int musicDuration = music.getDuration();
             this.totalDuration = (this.totalDuration + musicDuration);
         }
-        
+
         return this.totalDuration;
     }
-
-
 }

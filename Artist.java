@@ -1,5 +1,5 @@
 public class Artist {
-    
+
     private String firstName;
     private String lastName;
 
@@ -11,6 +11,5 @@ public class Artist {
     public String getFullName() {
         return this.firstName + " " + this.lastName;
     }
-
 
 }
