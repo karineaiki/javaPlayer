@@ -6,6 +6,7 @@ class Player {
         Artist laCompagnieCreole = new Artist("La compagnie", "Créole");
         Artist garou = new Artist ("Garou", "");
         Artist celine = new Artist("Céline", "Dion");
+        
         HashSet<Artist> compagnieCreoleSet = new HashSet<>();
         HashSet<Artist> duoGarouCeline = new HashSet<>();
         duoGarouCeline.add(garou);

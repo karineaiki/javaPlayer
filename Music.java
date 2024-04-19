@@ -1,6 +1,7 @@
 import java.util.HashSet;
 
 public class Music {
+    
     private String title;
     private int duration;
     private HashSet<Artist> artistSet;
